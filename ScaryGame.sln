@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaryGame.Plugins", "ScaryGame.Plugins.csproj", "{02AE1B45-A6CE-25B8-AC63-6C42B0E9F0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaryGame.Editor.Plugins", "ScaryGame.Editor.Plugins.csproj", "{A27502BC-6CC5-554D-E28E-13AF78EBF494}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02AE1B45-A6CE-25B8-AC63-6C42B0E9F0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AE1B45-A6CE-25B8-AC63-6C42B0E9F0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AE1B45-A6CE-25B8-AC63-6C42B0E9F0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AE1B45-A6CE-25B8-AC63-6C42B0E9F0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27502BC-6CC5-554D-E28E-13AF78EBF494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27502BC-6CC5-554D-E28E-13AF78EBF494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27502BC-6CC5-554D-E28E-13AF78EBF494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27502BC-6CC5-554D-E28E-13AF78EBF494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
