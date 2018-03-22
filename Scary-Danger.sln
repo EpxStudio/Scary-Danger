@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scary-Danger.Plugins", "Scary-Danger.Plugins.csproj", "{F0D6276A-417C-45B5-7273-872194BD5978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scary-Danger", "Scary-Danger.csproj", "{00D55F4D-C319-9253-CF24-32495EA3E392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scary-Danger.Editor.Plugins", "Scary-Danger.Editor.Plugins.csproj", "{FDF41D95-E03D-FB6D-8E8D-32EB18E96BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scary-Danger.Editor", "Scary-Danger.Editor.csproj", "{6BF3F503-3BF0-7D33-BA04-5EAEAB6AE564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0D6276A-417C-45B5-7273-872194BD5978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D6276A-417C-45B5-7273-872194BD5978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D6276A-417C-45B5-7273-872194BD5978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D6276A-417C-45B5-7273-872194BD5978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D55F4D-C319-9253-CF24-32495EA3E392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D55F4D-C319-9253-CF24-32495EA3E392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D55F4D-C319-9253-CF24-32495EA3E392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D55F4D-C319-9253-CF24-32495EA3E392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF41D95-E03D-FB6D-8E8D-32EB18E96BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF41D95-E03D-FB6D-8E8D-32EB18E96BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF41D95-E03D-FB6D-8E8D-32EB18E96BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF41D95-E03D-FB6D-8E8D-32EB18E96BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF3F503-3BF0-7D33-BA04-5EAEAB6AE564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF3F503-3BF0-7D33-BA04-5EAEAB6AE564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF3F503-3BF0-7D33-BA04-5EAEAB6AE564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF3F503-3BF0-7D33-BA04-5EAEAB6AE564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
