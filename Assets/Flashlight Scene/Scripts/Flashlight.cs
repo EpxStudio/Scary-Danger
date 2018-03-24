@@ -5,6 +5,7 @@ using UnityEngine;
 public class Flashlight : MonoBehaviour {
 
     //Flashlight Management variables
+    private bool inHands;
     private bool flashlightEnabled;
     public GameObject lightObj;
     public float maxEnergy;
@@ -13,9 +14,6 @@ public class Flashlight : MonoBehaviour {
     //Battery interaction variables
     private int batteries;
     private float usedEnergy;
-
-    //Vive controller interaction variables
-    bool switchedOn = false;
     
     // Use this for initialization
     void Start () {
@@ -28,13 +26,10 @@ public class Flashlight : MonoBehaviour {
 	void FixedUpdate () {
         maxEnergy = 50 * batteries;
         currentEnergy = maxEnergy;
-      /*  //equip flashlight with "F" key
-        if (Input.GetKeyDown(KeyCode.F)) {
-            flashlightEnabled = !flashlightEnabled;
-        }*/
 
-        //flashlight on if there is energy in it
-        if (flashlightEnabled)
+        //Flashlight on if there is energy in it and it is in the players hands
+            //Bug: Player does not need to be holding the flashlight only needs to be in the box collider
+        if (inHands && flashlightEnabled)
         {
             lightObj.SetActive(true);
             if (currentEnergy <= 0)
@@ -68,6 +63,23 @@ public class Flashlight : MonoBehaviour {
         {
             batteries += 1;
             Destroy(other.gameObject);
+        }
+    }
+
+    public void OnTriggerStay(Collider other)
+    {
+        //If the flashlight is in the players hands inHands = True
+        if (other.tag == "Hands")
+            inHands = true;
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        inHands = false;
+        //If Flashlight is on when it leaves the players hands it turns off
+        if (flashlightEnabled)
+        {
+            ToggleSwitch();
         }
     }
 
