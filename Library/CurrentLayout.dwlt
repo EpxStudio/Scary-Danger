@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 34
+  controlID: 61
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,7 +286,7 @@ MonoBehaviour:
     x: 1367
     y: 92
     width: 553
-    height: 1046
+    height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
@@ -360,19 +360,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scenes/Flashlight Scene/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes/Flashlight Scene/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kody Leuang\Documents\GitHub\Scary-Danger
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 324d0000
-    m_LastClickedID: 19762
-    m_ExpandedIDs: 00000000324d0000564d0000804e0000824f00009e4f0000b44f0000ba5000006452000074530000ce5300000e5400007c5500007e550000805500008255000084550000865500008855000000ca9a3bffffff7f
+    m_SelectedIDs: e22e0000
+    m_LastClickedID: 12002
+    m_ExpandedIDs: 000000000c2b0000342b0000a22c0000f62d0000b02f0000b42f00000e32000038330000c03300001a340000383900003a3900003c3900003e39000040390000423900004439000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000324d0000564d0000804e0000824f00009e4f0000b44f0000ba5000006452000074530000ce5300000e5400007c5500007e5500008055000082550000845500008655000088550000
+    m_ExpandedIDs: 000000000c2b0000342b0000a22c0000d82d0000f62d0000122e0000b42f0000de31000038330000c03300001a340000383900003a3900003c3900003e390000403900004239000044390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -518,9 +518,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: c4dcffff00000000
+    m_SelectedIDs: 6a370000
+    m_LastClickedID: 14186
+    m_ExpandedIDs: 8efbffff0000000086370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -571,14 +571,14 @@ MonoBehaviour:
     height: 552
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 118.6435152541811
+  lastFramingTime: 1324.1248114577252
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.572031, y: 1.1410816, z: 13.266138}
+    m_Target: {x: 5.975549, y: -1.031062, z: 0.89000636}
     speed: 2
-    m_Value: {x: 13.572031, y: 1.1410816, z: 13.266138}
+    m_Value: {x: 5.975549, y: -1.031062, z: 0.89000636}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -602,13 +602,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.10486914, y: -0.8149467, z: 0.15588635, w: -0.54823697}
+    m_Target: {x: 0.13339092, y: 0.7206012, z: -0.14457428, w: 0.66486025}
     speed: 2
-    m_Value: {x: 0.10486915, y: 0.8149468, z: -0.15588635, w: 0.54823697}
+    m_Value: {x: 0.13339092, y: 0.7206012, z: -0.14457428, w: 0.66486025}
   m_Size:
-    m_Target: 9.194224
+    m_Target: 8.697092
     speed: 2
-    m_Value: 9.194224
+    m_Value: 8.697092
   m_Ortho:
     m_Target: 0
     speed: 2

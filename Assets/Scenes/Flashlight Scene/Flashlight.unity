@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07670726, g: 0.06904908, b: 0.04614562, a: 1}
+  m_IndirectSpecularColor: {r: 0.113370426, g: 0.11455638, b: 0.095102124, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -355,7 +355,7 @@ Transform:
   m_LocalScale: {x: 0.082657255, y: 0.0940207, z: 0.08843068}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &302254145
 MonoBehaviour:
@@ -781,7 +781,7 @@ Transform:
   m_LocalScale: {x: 0.082657255, y: 0.0940207, z: 0.08843068}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &658527295
 Material:
@@ -960,13 +960,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 877635505}
-  m_LocalRotation: {x: 0.72697294, y: -0.68006927, z: -0.09055287, w: 0.02857299}
+  m_LocalRotation: {x: 0.0036081073, y: -0.97915137, z: -0.014211377, w: 0.20260221}
   m_LocalPosition: {x: -4.92, y: 10.15, z: -0.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 184.682, y: -350.149, z: -274.22202}
+  m_LocalEulerAnglesHint: {x: 181.511, y: -336.609, z: -180.735}
 --- !u!1 &951218369
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,8 +1065,50 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 3.741379}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1034961132
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4796938050126336, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796938050126336, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796938050126336, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796938050126336, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796938050126336, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796938050126336, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796938050126336, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796938050126336, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ca49ebea275455d4d953f3fa57522bff, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1064925200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1678,7 @@ Transform:
   - {fileID: 2070286354}
   - {fileID: 1285341045}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1149951696
 Prefab:
@@ -1713,7 +1755,7 @@ Transform:
   - {fileID: 1685190876}
   - {fileID: 1981797527}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1276959303
 Mesh:
@@ -1864,7 +1906,7 @@ GameObject:
   - component: {fileID: 1283916193}
   - component: {fileID: 1283916198}
   m_Layer: 0
-  m_Name: Flashlight
+  m_Name: Flashlight demo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
