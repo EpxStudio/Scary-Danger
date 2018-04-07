@@ -73,7 +73,7 @@ public class Flashlight : MonoBehaviour {
             inHands = true;
     }
 
-    public void OnTriggerExit(Collider other)
+    /*public void OnTriggerExit(Collider other)
     {
         inHands = false;
         //If Flashlight is on when it leaves the players hands it turns off
@@ -81,7 +81,7 @@ public class Flashlight : MonoBehaviour {
         {
             ToggleSwitch();
         }
-    }
+    }*/
 
     public void ToggleSwitch()
     {

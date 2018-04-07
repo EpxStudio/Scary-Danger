@@ -14,7 +14,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 51
     width: 1920
     height: 997
   m_ShowMode: 4
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 127
+  controlID: 129
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 665
+    y: 673
     width: 1363
     height: 353
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -360,19 +360,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Models
+    - Assets/Scenes/Flashlight Scene/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models
+  - Assets/Scenes/Flashlight Scene/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kody Leuang\Documents\GitHub\Scary-Danger
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 80330000
-    m_LastClickedID: 13184
-    m_ExpandedIDs: 00000000062b00002e2b00009c2c0000f02d0000aa2f0000ae2f00000832000032330000c23300001c3400002a3900002c3900002e3900003039000032390000343900003639000000ca9a3bffffff7f
+    m_SelectedIDs: c8300000
+    m_LastClickedID: 12488
+    m_ExpandedIDs: 00000000002d0000282d0000962e0000e82f00009231000096310000f03300001e3500009c350000f6350000583900005a3900005c3900005e39000060390000623900006439000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000062b00002e2b00009c2c0000f02d0000aa2f0000ae2f00000832000032330000c23300001c3400002a3900002c3900002e39000030390000323900003439000036390000
+    m_ExpandedIDs: 00000000002d0000282d0000962e0000e82f00009231000096310000f03300001e3500009c350000f6350000583900005a3900005c3900005e390000603900006239000064390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000bc310000000000005636000014360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1367
-    y: 92
+    y: 100
     width: 553
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -512,15 +512,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 92
+    y: 100
     width: 403
     height: 552
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3ee8ffff
-    m_LastClickedID: -6082
-    m_ExpandedIDs: e6a9feff663bffffaa3effff70eeffff72eeffff98fbffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 44faffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 407
-    y: 92
+    y: 100
     width: 956
     height: 552
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1602263, y: 0.0034497976, z: 0.5415926}
+    m_Target: {x: 2.7370243, y: 0.9758198, z: 0.8058598}
     speed: 2
-    m_Value: {x: 1.1602263, y: 0.0034497976, z: 0.5415926}
+    m_Value: {x: 2.7370243, y: 0.9758198, z: 0.8058598}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -602,9 +602,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.025995217, y: 0.9598732, z: -0.26255634, w: 0.09503623}
+    m_Target: {x: 0.04083428, y: 0.941417, z: -0.123558365, w: 0.31112695}
     speed: 2
-    m_Value: {x: 0.025995217, y: 0.9598732, z: -0.26255634, w: 0.09503623}
+    m_Value: {x: 0.04083428, y: 0.94141704, z: -0.123558365, w: 0.31112695}
   m_Size:
     m_Target: 3.8750103
     speed: 2
