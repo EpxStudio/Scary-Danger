@@ -762,6 +762,36 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114016743029237534, guid: b53dca885deb4834a904c8d547143276,
+        type: 2}
+      propertyPath: actualBoundaries
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114016743029237534, guid: b53dca885deb4834a904c8d547143276,
+        type: 2}
+      propertyPath: actualHeadset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114016743029237534, guid: b53dca885deb4834a904c8d547143276,
+        type: 2}
+      propertyPath: actualLeftController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114016743029237534, guid: b53dca885deb4834a904c8d547143276,
+        type: 2}
+      propertyPath: actualRightController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114016743029237534, guid: b53dca885deb4834a904c8d547143276,
+        type: 2}
+      propertyPath: modelAliasLeftController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114016743029237534, guid: b53dca885deb4834a904c8d547143276,
+        type: 2}
+      propertyPath: modelAliasRightController
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b53dca885deb4834a904c8d547143276, type: 2}
   m_IsPrefabParent: 0

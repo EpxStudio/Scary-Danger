@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Flashlight Scene/Flashlight.unity
+- path: Assets/Scenes/Health Scene/Health.unity
   isLoaded: 1
   isActive: 1

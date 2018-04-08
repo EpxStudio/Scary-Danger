@@ -26,10 +26,9 @@ public class Flashlight : MonoBehaviour {
 	void FixedUpdate () {
         maxEnergy = 50 * batteries;
         currentEnergy = maxEnergy;
-
         //Flashlight on if there is energy in it and it is in the players hands
-            //Bug: Player does not need to be holding the flashlight only needs to be in the box collider
-        if (inHands && flashlightEnabled)
+        //Bug: Player does not need to be holding the flashlight only needs to be in the box collider
+        if (flashlightEnabled)
         {
             lightObj.SetActive(true);
             if (currentEnergy <= 0)
@@ -50,11 +49,13 @@ public class Flashlight : MonoBehaviour {
                 batteries -= 1;
                 usedEnergy = 0;
             }
-            print("Batteries: " + batteries);
-            print("usedEnergy: " + usedEnergy);
+            // print("Batteries: " + batteries);
+            // print("usedEnergy: " + usedEnergy);
         }
         else
+        {
             lightObj.SetActive(false);
+        }
     }
 
     //Charges Flashlight when battery collides with it
@@ -73,22 +74,29 @@ public class Flashlight : MonoBehaviour {
             inHands = true;
     }
 
-    /*public void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other)
     {
         inHands = false;
-        //If Flashlight is on when it leaves the players hands it turns off
-        if (flashlightEnabled)
-        {
-            ToggleSwitch();
-        }
-    }*/
+    }
 
     public void ToggleSwitch()
     {
-        flashlightEnabled = !flashlightEnabled;
-        if (flashlightEnabled)
+        if (inHands)
+        {
+            flashlightEnabled = !flashlightEnabled;
             FixedUpdate();
+        }
+    }
+
+    public bool IsOn()
+    {
+        if(flashlightEnabled)
+        {
+            return true;
+        }
         else
-            FixedUpdate();
+        {
+            return false;
+        }
     }
 }
