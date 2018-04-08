@@ -5,23 +5,21 @@ public class LaserScript : MonoBehaviour
 {
     public int damagePerShot = 10;
     public float range = 100f;
-    public VRTK.VRTK_ControllerEvents controllerEvents;
     public Flashlight flash;
-
 
     Ray shootRay;
     RaycastHit shootHit;
-    int enemyLayer;
+    int shootableMask;
     LineRenderer line;
 
     void Start()
     {
         line = GetComponent<LineRenderer>();
-        enemyLayer = gameObject.layer;
     }
 
     void FixedUpdate()
     {
+        shootableMask = 1 << 8;
         //Will only shoot if the flashlight is on
         if (flash.IsOn())
         {
@@ -41,7 +39,7 @@ public class LaserScript : MonoBehaviour
 
         //If (Origin of the ray, what it has hit, how far it can go)
         //If this has hit something
-        if (Physics.Raycast(shootRay, out shootHit, range))
+        if (Physics.Raycast(shootRay, out shootHit, range, shootableMask))
         {
             //Get the enemy health script of that object the ray has hit
             EnemyHealth enemyHealth = shootHit.collider.GetComponent<EnemyHealth>();
