@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LaserScript : MonoBehaviour
 {
-    public int damagePerShot = 10;
+    public int damagePerShot = 1;      //Does 50 damage per second
     public float range = 100f;
     public Flashlight flash;
 

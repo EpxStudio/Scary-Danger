@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     public const int startingHealth = 100;
-    public int currentHealth;
+    public float currentHealth;
     public Slider healthSlider;
     public Image damageImage;
     public float flashSpeed = 5f;
@@ -34,7 +34,7 @@ public class Health : MonoBehaviour
         damaged = false;
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(float amount)
     {
         damaged = true;
         currentHealth -= amount;
