@@ -22,7 +22,7 @@ public class Flashlight : MonoBehaviour {
 	}
 
 	
-	// Update is called once per second
+	// Update is called 50 times per second
 	void FixedUpdate () {
         maxEnergy = 50 * batteries;
         currentEnergy = maxEnergy;

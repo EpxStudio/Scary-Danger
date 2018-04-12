@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 332, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 3056
+  controlID: 112
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 1855
     height: 676
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -118,10 +118,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 947
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 98
+  controlID: 61
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,8 +166,8 @@ MonoBehaviour:
     y: 0
     width: 248
     height: 676
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -219,7 +219,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &10
 MonoBehaviour:
@@ -282,10 +282,10 @@ MonoBehaviour:
     y: 0
     width: 2103
     height: 947
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 1508
+  controlID: 10
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,10 +306,10 @@ MonoBehaviour:
     y: 0
     width: 2103
     height: 676
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 1509
+  controlID: 11
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -408,19 +408,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kody Leuang\Documents\GitHub\Scary-Danger
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 83}
-    m_SelectedIDs: 1c320000
-    m_LastClickedID: 12828
-    m_ExpandedIDs: 000000000a2b0000322b00009a2c0000a82c0000fc2d00005c2e0000582f0000b02f00001e3200004c330000ce330000283400008c3900008e390000903900009239000094390000963900009839000000ca9a3bffffff7f
+    m_SelectedIDs: 50320000
+    m_LastClickedID: 12880
+    m_ExpandedIDs: 000000000c2b0000342b00009c2c0000aa2c0000fe2d00005e2e00005a2f0000b22f0000203200004e330000d03300002a340000ba390000bc390000be390000c0390000c2390000c4390000c639000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,7 +448,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a2b0000322b0000a82c0000fc2d0000b02f00001e3200004c330000ce330000283400008c3900008e3900009039000092390000943900009639000098390000
+    m_ExpandedIDs: 000000000c2b0000342b00009c2c0000aa2c0000fe2d00005e2e00005a2f0000b22f0000203200004e330000d03300002a340000ba390000bc390000be390000c0390000c2390000c4390000c6390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -566,9 +566,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c42f0000
+    m_SelectedIDs: 3e0a0000
     m_LastClickedID: 0
-    m_ExpandedIDs: dcaaf8ffb0ddfeffc6ddfeffe0ddfeffe2ddfeffe4ddfeff92defeff3edffeff40dffeff72dffeff1cecfeff6420ffff6620ffff9475fffff678ffff0079ffff0279ffff7a8fffffecf9ffff06faffff0afaffff98fbffff00000000ea3f0000884000008c4000008a410000a4410000a6410000d2410000
+    m_ExpandedIDs: 98fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -624,9 +624,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.71558, y: 0.054115057, z: 1.4249128}
+    m_Target: {x: 8.237018, y: -0.05284691, z: -9.709866}
     speed: 2
-    m_Value: {x: 13.71558, y: 0.054115057, z: 1.4249128}
+    m_Value: {x: 8.237018, y: -0.05284691, z: -9.709866}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -650,9 +650,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.03820334, y: 0.74062586, z: -0.042262033, w: 0.66949815}
+    m_Target: {x: 0.022214364, y: 0.9271784, z: -0.05569832, w: 0.36978963}
     speed: 2
-    m_Value: {x: 0.038203344, y: 0.7406259, z: -0.042262036, w: 0.6694982}
+    m_Value: {x: 0.022214366, y: 0.92717844, z: -0.055698324, w: 0.36978966}
   m_Size:
     m_Target: 17.949617
     speed: 2

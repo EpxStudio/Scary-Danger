@@ -15,9 +15,10 @@ public class EnemyMove : MonoBehaviour {
         transform.RotateAround(player.transform.position, new Vector3(0, 1, 0), 20 * Time.deltaTime * speed);
         currHP = enemyHealth.currentHealth;
         maxHP = enemyHealth.startingHealth;
-        //SpeedUp();
+        SpeedUp();
 	}
 
+    //When enemy is low it speeds up it's movement
     void SpeedUp()
     {
         if ((currHP / maxHP) < 0.75f)
