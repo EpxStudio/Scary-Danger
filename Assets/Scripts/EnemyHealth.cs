@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour {
     public int startingHealth = 100;
-    public int currentHealth;
+    public float currentHealth;
     public float sinkSpeed = 2.5f;
     public AudioClip deathClip;
 //---------------------------------------------------------------
@@ -39,7 +39,7 @@ public class EnemyHealth : MonoBehaviour {
         }
 	}
 
-    public void TakeDamage(int amount, Vector3 hitPoint)
+    public void TakeDamage(float amount, Vector3 hitPoint)
     {
         //Changes the health bar slider when damaged
         //--------------------------------------------------------

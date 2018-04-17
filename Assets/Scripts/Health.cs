@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    public const int startingHealth = 100;
+    public int startingHealth;
     public float currentHealth;
     public Slider healthSlider;
     public Image damageImage;

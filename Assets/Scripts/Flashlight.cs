@@ -8,6 +8,7 @@ public class Flashlight : MonoBehaviour {
     private bool inHands;
     private bool flashlightEnabled;
     public GameObject lightObj;
+    public int energyPerBattery;
     public float maxEnergy;
     private float currentEnergy;
 
@@ -17,14 +18,14 @@ public class Flashlight : MonoBehaviour {
     
     // Use this for initialization
     void Start () {
-        maxEnergy = 50 * batteries;
+        maxEnergy = energyPerBattery * batteries;
         currentEnergy = maxEnergy;
 	}
 
 	
 	// Update is called 50 times per second
 	void FixedUpdate () {
-        maxEnergy = 50 * batteries;
+        maxEnergy = energyPerBattery * batteries;
         currentEnergy = maxEnergy;
         //Flashlight on if there is energy in it and it is in the players hands
         //Bug: Player does not need to be holding the flashlight only needs to be in the box collider
