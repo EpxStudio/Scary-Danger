@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMove : MonoBehaviour {
+    Random random = new Random();
     public GameObject player;
     public EnemyHealth enemyHealth;
-    public int speed = 3;
+    public float speed = 0;
 
     float currHP;
     float maxHP;
@@ -15,19 +16,6 @@ public class EnemyMove : MonoBehaviour {
         transform.RotateAround(player.transform.position, new Vector3(0, 1, 0), 20 * Time.deltaTime * speed);
         currHP = enemyHealth.currentHealth;
         maxHP = enemyHealth.startingHealth;
-        SpeedUp();
+        speed = Random.Range(.1f, 5f);
 	}
-
-    //When enemy is low it speeds up it's movement
-    void SpeedUp()
-    {
-        if ((currHP / maxHP) < 0.75f)
-        {
-            speed = 5;
-        }
-        if ((currHP / maxHP) < 0.5f)
-        {
-            speed = 7;
-        }
-    }
 }

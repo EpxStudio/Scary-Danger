@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LaserScript : MonoBehaviour
 {
-    public int damagePerShot = 1;      //Does 50 damage per second
+    public float damagePerShot = .2f;      //Does 50 damage per second
     public float range = 100f;
     public Flashlight flash;
 
@@ -43,12 +43,14 @@ public class LaserScript : MonoBehaviour
         {
             //Get the enemy health script of that object the ray has hit
             EnemyHealth enemyHealth = shootHit.collider.GetComponent<EnemyHealth>();
+            EnemyMove enemyMove = shootHit.collider.GetComponent<EnemyMove>();
             //If the object you hit has a health script subtract it by damage per shot
             if (enemyHealth != null)
             {
                 enemyHealth.TakeDamage(damagePerShot, shootHit.point);
             }
             //sets the end of the Line renderer at the thing it has hit
+            enemyMove.speed = 7;
             line.SetPosition(1, shootHit.point);
         }
         //else make the line go far out 100 units (range)
