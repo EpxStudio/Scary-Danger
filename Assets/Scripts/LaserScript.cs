@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LaserScript : MonoBehaviour
 {
-    public float damagePerShot = .2f;      //Does 50 damage per second
+    public float damagePerShot = 5f;      //Does 50 damage per second
     public float range = 100f;
     public Flashlight flash;
 
@@ -50,7 +50,7 @@ public class LaserScript : MonoBehaviour
                 enemyHealth.TakeDamage(damagePerShot, shootHit.point);
             }
             //sets the end of the Line renderer at the thing it has hit
-            enemyMove.speed = 7;
+            enemyMove.speed = 30f;
             line.SetPosition(1, shootHit.point);
         }
         //else make the line go far out 100 units (range)
